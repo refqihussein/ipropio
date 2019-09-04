@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-037 ( Report Invoice Transactions ),Chrome 76.0.3809.100,,,2019-09-04 09:30:19,2019-09-04 09:31:21,1m - 1.636s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-037 ( Report Invoice Transactions ),Chrome 76.0.3809.100,,,2019-09-04 09:30:20,2019-09-04 09:31:21,1m - 1.255s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-04 09:30:20,2019-09-04 09:30:37,17.388s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:30:37,2019-09-04 09:30:39,2.008s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-04 09:30:39,2019-09-04 09:30:39,0.114s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/a_Invoices Transactions""))",Chrome 76.0.3809.100,,,2019-09-04 09:30:39,2019-09-04 09:30:40,0.222s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:30:40,2019-09-04 09:30:42,2.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:30:42,2019-09-04 09:30:43,1.004s,PASSED
+"click(findTestObject(""Invoice Report/input_Show_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 09:30:43,2019-09-04 09:30:43,0.174s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/li_10""))",Chrome 76.0.3809.100,,,2019-09-04 09:30:43,2019-09-04 09:30:44,0.659s,PASSED
+delay(9),Chrome 76.0.3809.100,,,2019-09-04 09:30:44,2019-09-04 09:30:53,9.004s,PASSED
+"scrollToPosition(0, 9999999)",Chrome 76.0.3809.100,,,2019-09-04 09:30:53,2019-09-04 09:30:53,0.053s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:30:53,2019-09-04 09:30:58,5.005s,PASSED
+"scrollToPosition(9999999, 0)",Chrome 76.0.3809.100,,,2019-09-04 09:30:58,2019-09-04 09:30:58,0.032s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:30:58,2019-09-04 09:31:03,5.003s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:31:03,2019-09-04 09:31:03,0.279s,PASSED
+"click(findTestObject(""Invoice Report/input_Show_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:03,2019-09-04 09:31:03,0.149s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/li_20""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:03,2019-09-04 09:31:04,0.576s,PASSED
+delay(10),Chrome 76.0.3809.100,,,2019-09-04 09:31:04,2019-09-04 09:31:14,10.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:31:14,2019-09-04 09:31:14,0.284s,PASSED
+"click(findTestObject(""Invoice Report/input_Date Range_date""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:14,2019-09-04 09:31:14,0.161s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/button_previous 30 days""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:14,2019-09-04 09:31:14,0.229s,PASSED
+"click(findTestObject(""Invoice Report/input_All_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:14,2019-09-04 09:31:15,0.268s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/li_Paid""))",Chrome 76.0.3809.100,,,2019-09-04 09:31:15,2019-09-04 09:31:15,0.213s,PASSED
+"setText(findTestObject(""Object Repository/Invoice Report/input_By Invoice Number___BVID__181""), ""ABC00633"")",Chrome 76.0.3809.100,,,2019-09-04 09:31:15,2019-09-04 09:31:15,0.403s,PASSED
+"setText(findTestObject(""Object Repository/Invoice Report/input_By House Number___BVID__182""), ""13"")",Chrome 76.0.3809.100,,,2019-09-04 09:31:15,2019-09-04 09:31:16,0.333s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:31:16,2019-09-04 09:31:21,5.010s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:31:21,2019-09-04 09:31:21,0.302s,PASSED

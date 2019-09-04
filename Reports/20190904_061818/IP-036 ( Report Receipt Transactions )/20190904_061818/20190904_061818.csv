@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-036 ( Report Receipt Transactions ),Chrome 76.0.3809.100,,,2019-09-04 06:18:21,2019-09-04 06:19:06,45.186s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-036 ( Report Receipt Transaction ),Chrome 76.0.3809.100,,,2019-09-04 06:18:21,2019-09-04 06:19:06,44.846s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-04 06:18:21,2019-09-04 06:18:39,17.801s,PASSED
+"click(findTestObject(""receipt transactions/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:39,2019-09-04 06:18:46,6.522s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 06:18:46,2019-09-04 06:18:48,2.009s,PASSED
+"click(findTestObject(""receipt transactions/a_Receipts Transactions""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:48,2019-09-04 06:18:48,0.132s,PASSED
+"click(findTestObject(""receipt transactions/input_Date Range_date""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:48,2019-09-04 06:18:49,1.293s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 06:18:49,2019-09-04 06:18:52,3.008s,PASSED
+"click(findTestObject(""receipt transactions/button_previous 30 days""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:52,2019-09-04 06:18:52,0.155s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 06:18:52,2019-09-04 06:18:55,3.006s,PASSED
+"setText(findTestObject(""receipt transactions/input_Receipt Number___BVID__176""), ""CBA00021"")",Chrome 76.0.3809.100,,,2019-09-04 06:18:55,2019-09-04 06:18:56,0.262s,PASSED
+"clearText(findTestObject(""receipt transactions/input_Receipt Number___BVID__176""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:56,2019-09-04 06:18:56,0.131s,PASSED
+"click(findTestObject(""receipt transactions/input_All_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:56,2019-09-04 06:18:56,0.366s,PASSED
+"click(findTestObject(""receipt transactions/li_Cash""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:56,2019-09-04 06:18:56,0.213s,PASSED
+"click(findTestObject(""receipt transactions/a_cash too00023""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:56,2019-09-04 06:18:56,0.151s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 06:18:56,2019-09-04 06:18:59,3.006s,PASSED
+"click(findTestObject(""receipt transactions/button_Email Receipt""))",Chrome 76.0.3809.100,,,2019-09-04 06:18:59,2019-09-04 06:19:00,0.111s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 06:19:00,2019-09-04 06:19:02,2.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 06:19:02,2019-09-04 06:19:02,0.303s,PASSED
+"click(findTestObject(""receipt transactions/button_Cancel Receipt""))",Chrome 76.0.3809.100,,,2019-09-04 06:19:02,2019-09-04 06:19:02,0.200s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 06:19:02,2019-09-04 06:19:02,0.343s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 06:19:02,2019-09-04 06:19:05,3.006s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 06:19:05,2019-09-04 06:19:06,0.307s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-09-04 06:19:06,2019-09-04 06:19:06,0.152s,PASSED

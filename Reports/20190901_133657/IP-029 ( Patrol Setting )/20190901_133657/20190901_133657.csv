@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-029 ( Patrol Setting ),Chrome 76.0.3809.100,,,2019-09-01 13:36:59,2019-09-01 13:37:28,29.065s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-029 ( Patrol Checkpoint ),Chrome 76.0.3809.100,,,2019-09-01 13:37:00,2019-09-01 13:37:28,28.712s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-01 13:37:00,2019-09-01 13:37:25,24.554s,PASSED
+"click(findTestObject(""Object Repository/patrol setting/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-09-01 13:37:25,2019-09-01 13:37:26,1.249s,PASSED
+"click(findTestObject(""Object Repository/patrol setting/a_Patrol Setting""))",Chrome 76.0.3809.100,,,2019-09-01 13:37:26,2019-09-01 13:37:26,0.228s,PASSED
+"click(findTestObject(""Object Repository/patrol setting/a_Add New Checkpoint""))",Chrome 76.0.3809.100,,,2019-09-01 13:37:26,2019-09-01 13:37:27,1.188s,PASSED
+"setText(findTestObject(""Object Repository/patrol setting/input_Checkpoint Name_patrol-point""), ""ipropotomasi"")",Chrome 76.0.3809.100,,,2019-09-01 13:37:27,2019-09-01 13:37:28,0.808s,PASSED
+"setText(findTestObject(""Object Repository/patrol setting/input_QR Code_code""), ""iprop12345"")",Chrome 76.0.3809.100,,,2019-09-01 13:37:28,2019-09-01 13:37:28,0.226s,PASSED
+"click(findTestObject(""Object Repository/patrol setting/button_Create New Checkpoint""))",Chrome 76.0.3809.100,,,2019-09-01 13:37:28,2019-09-01 13:37:28,0.153s,PASSED

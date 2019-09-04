@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-037 ( Report Invoice Transactions ),Chrome 76.0.3809.100,,,2019-09-04 09:50:40,2019-09-04 09:52:14,1m - 33.165s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-037 ( Report Invoice Transactions ),Chrome 76.0.3809.100,,,2019-09-04 09:50:41,2019-09-04 09:52:14,1m - 32.465s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-04 09:50:42,2019-09-04 09:51:19,37.420s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:51:19,2019-09-04 09:51:21,2.004s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:21,2019-09-04 09:51:21,0.132s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/a_Invoices Transactions""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:21,2019-09-04 09:51:21,0.283s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:51:21,2019-09-04 09:51:23,2.006s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:51:23,2019-09-04 09:51:24,0.302s,PASSED
+"click(findTestObject(""Invoice Report/input_Show_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:24,2019-09-04 09:51:25,0.924s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/li_10""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:25,2019-09-04 09:51:25,0.609s,PASSED
+delay(9),Chrome 76.0.3809.100,,,2019-09-04 09:51:25,2019-09-04 09:51:34,9.007s,PASSED
+"scrollToPosition(0, 9999999)",Chrome 76.0.3809.100,,,2019-09-04 09:51:34,2019-09-04 09:51:34,0.101s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:51:34,2019-09-04 09:51:39,5.009s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:51:39,2019-09-04 09:51:40,0.615s,PASSED
+"scrollToPosition(9999999, 0)",Chrome 76.0.3809.100,,,2019-09-04 09:51:40,2019-09-04 09:51:40,0.046s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:51:40,2019-09-04 09:51:45,5.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:51:45,2019-09-04 09:51:45,0.295s,PASSED
+"click(findTestObject(""Invoice Report/input_Show_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:45,2019-09-04 09:51:46,0.168s,PASSED
+"click(findTestObject(""Object Repository/Invoice Report/li_20""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:46,2019-09-04 09:51:46,0.671s,PASSED
+delay(10),Chrome 76.0.3809.100,,,2019-09-04 09:51:46,2019-09-04 09:51:56,10.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:51:56,2019-09-04 09:51:57,0.281s,PASSED
+"click(findTestObject(""Invoice Report/input_Date Range_date""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:57,2019-09-04 09:51:57,0.146s,PASSED
+"click(findTestObject(""Invoice Report/button_previous 30 days""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:57,2019-09-04 09:51:57,0.221s,PASSED
+"click(findTestObject(""Invoice Report/a_ABC00633""))",Chrome 76.0.3809.100,,,2019-09-04 09:51:57,2019-09-04 09:51:57,0.230s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 09:51:57,2019-09-04 09:52:00,3.005s,PASSED
+"click(findTestObject(""Invoice Report/button_Email Invoice""))",Chrome 76.0.3809.100,,,2019-09-04 09:52:00,2019-09-04 09:52:00,0.164s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:52:00,2019-09-04 09:52:02,2.029s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:52:02,2019-09-04 09:52:03,0.407s,PASSED
+"click(findTestObject(""Invoice Report/button_Cancel Invoice""))",Chrome 76.0.3809.100,,,2019-09-04 09:52:03,2019-09-04 09:52:03,0.193s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-04 09:52:03,2019-09-04 09:52:05,2.003s,PASSED
+"setText(findTestObject(""Invoice Report/input__swal2-input""), ""testing12345"")",Chrome 76.0.3809.100,,,2019-09-04 09:52:05,2019-09-04 09:52:05,0.209s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 09:52:05,2019-09-04 09:52:08,3.006s,PASSED
+"click(findTestObject(""Invoice Report/Page_iPropio Resident Association and Security Management/button_Cancel Invoice""))",Chrome 76.0.3809.100,,,2019-09-04 09:52:08,2019-09-04 09:52:08,0.142s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-04 09:52:08,2019-09-04 09:52:13,5.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 09:52:13,2019-09-04 09:52:14,0.285s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-030 ( Guard Shift ),Chrome 76.0.3809.100,,,2019-09-02 09:56:47,2019-09-02 09:57:17,30.223s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-030 ( Guard Shift ),Chrome 76.0.3809.100,,,2019-09-02 09:56:47,2019-09-02 09:57:17,29.857s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 09:56:48,2019-09-02 09:57:05,17.368s,PASSED
+"click(findTestObject(""Object Repository/guard shift/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:05,2019-09-02 09:57:06,1.012s,PASSED
+"click(findTestObject(""Object Repository/guard shift/a_Guard Shift""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:06,2019-09-02 09:57:06,0.204s,PASSED
+"click(findTestObject(""Object Repository/guard shift/a_Add New Shift""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:06,2019-09-02 09:57:07,0.786s,PASSED
+"setText(findTestObject(""Object Repository/guard shift/input_Name_name""), ""Malam Minggu Assyi'"")",Chrome 76.0.3809.100,,,2019-09-02 09:57:07,2019-09-02 09:57:08,1.567s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-02 09:57:08,2019-09-02 09:57:11,3.010s,PASSED
+"click(findTestObject(""guard shift/input_Start Time_start time""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 09:57:11,2019-09-02 09:57:12,0.151s,PASSED
+"setText(findTestObject(""guard shift/input_Start Time_start time""), ""10:30"")",Chrome 76.0.3809.100,,,2019-09-02 09:57:12,2019-09-02 09:57:12,0.224s,PASSED
+"click(findTestObject(""guard shift/input_End Time_end time""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:12,2019-09-02 09:57:12,0.114s,PASSED
+"setText(findTestObject(""guard shift/input_End Time_end time""), ""20 30"")",Chrome 76.0.3809.100,,,2019-09-02 09:57:12,2019-09-02 09:57:12,0.229s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 09:57:12,2019-09-02 09:57:12,0.277s,PASSED
+"click(findTestObject(""Object Repository/guard shift/label_Thursday""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:12,2019-09-02 09:57:13,0.113s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 09:57:13,2019-09-02 09:57:13,0.287s,PASSED
+"click(findTestObject(""Object Repository/guard shift/button_Create Shift Now""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:13,2019-09-02 09:57:13,0.134s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 09:57:13,2019-09-02 09:57:13,0.328s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-02 09:57:13,2019-09-02 09:57:16,3.008s,PASSED
+"click(findTestObject(""Object Repository/guard shift/button_Delete""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:16,2019-09-02 09:57:17,0.181s,PASSED
+"click(findTestObject(""Object Repository/guard shift/button_Yes Delete""))",Chrome 76.0.3809.100,,,2019-09-02 09:57:17,2019-09-02 09:57:17,0.192s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 09:57:17,2019-09-02 09:57:17,0.347s,PASSED

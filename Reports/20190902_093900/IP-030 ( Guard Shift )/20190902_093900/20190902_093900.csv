@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-030 ( Guard Shift ),Chrome 76.0.3809.100,,,2019-09-02 09:39:02,2019-09-02 09:39:27,24.927s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-030 ( Guard Shift ),Chrome 76.0.3809.100,,,2019-09-02 09:39:02,2019-09-02 09:39:27,24.608s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 09:39:03,2019-09-02 09:39:20,17.006s,PASSED
+"click(findTestObject(""Object Repository/guard shift/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:20,2019-09-02 09:39:21,1.022s,PASSED
+"click(findTestObject(""Object Repository/guard shift/a_Guard Shift""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:21,2019-09-02 09:39:21,0.276s,PASSED
+"click(findTestObject(""Object Repository/guard shift/a_Add New Shift""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:21,2019-09-02 09:39:22,0.753s,PASSED
+"setText(findTestObject(""Object Repository/guard shift/input_Name_name""), ""Malam Minggu Assyi'"")",Chrome 76.0.3809.100,,,2019-09-02 09:39:22,2019-09-02 09:39:23,1.020s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-02 09:39:23,2019-09-02 09:39:26,3.009s,PASSED
+"click(findTestObject(""guard shift/input_Start Time_start time""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 09:39:26,2019-09-02 09:39:26,0.136s,PASSED
+"setText(findTestObject(""guard shift/input_Start Time_start time""), ""10:30"")",Chrome 76.0.3809.100,,,2019-09-02 09:39:26,2019-09-02 09:39:26,0.265s,PASSED
+"click(findTestObject(""guard shift/input_End Time_end time""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:26,2019-09-02 09:39:26,0.151s,PASSED
+"setText(findTestObject(""guard shift/input_End Time_end time""), ""20 30"")",Chrome 76.0.3809.100,,,2019-09-02 09:39:26,2019-09-02 09:39:27,0.260s,PASSED
+"click(findTestObject(""Object Repository/guard shift/label_Thursday""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:27,2019-09-02 09:39:27,0.169s,PASSED
+"click(findTestObject(""Object Repository/guard shift/button_Create Shift Now""))",Chrome 76.0.3809.100,,,2019-09-02 09:39:27,2019-09-02 09:39:27,0.196s,PASSED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-031 ( Manage Guards ),Chrome 76.0.3809.100,,,2019-09-02 10:31:55,2019-09-02 10:32:24,29.874s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-031 ( manage Guards ),Chrome 76.0.3809.100,,,2019-09-02 10:31:55,2019-09-02 10:32:24,29.518s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 10:31:55,2019-09-02 10:32:13,17.537s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:13,2019-09-02 10:32:14,1.214s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/a_Manage Guards""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:14,2019-09-02 10:32:14,0.251s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/a_Add New Guard""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:14,2019-09-02 10:32:15,0.841s,PASSED
+"setText(findTestObject(""Object Repository/Manage Guards/input__first name""), ""Henry"")",Chrome 76.0.3809.100,,,2019-09-02 10:32:15,2019-09-02 10:32:16,1.045s,PASSED
+"setText(findTestObject(""Object Repository/Manage Guards/input__last name""), ""Messi"")",Chrome 76.0.3809.100,,,2019-09-02 10:32:16,2019-09-02 10:32:17,0.330s,PASSED
+"setText(findTestObject(""Object Repository/Manage Guards/input_land Islands_mobile number""), ""0812191633333"")",Chrome 76.0.3809.100,,,2019-09-02 10:32:17,2019-09-02 10:32:17,0.616s,PASSED
+"setText(findTestObject(""Object Repository/Manage Guards/input__email""), ""bb@gmail.com"")",Chrome 76.0.3809.100,,,2019-09-02 10:32:17,2019-09-02 10:32:17,0.337s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/img""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:17,2019-09-02 10:32:19,1.587s,PASSED
+"setText(findTestObject(""Object Repository/Manage Guards/input_Staff ID_staff_id""), ""0003"")",Chrome 76.0.3809.100,,,2019-09-02 10:32:19,2019-09-02 10:32:19,0.268s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 10:32:19,2019-09-02 10:32:20,0.336s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/span_Guard""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:20,2019-09-02 10:32:20,0.176s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/li_Guard""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:20,2019-09-02 10:32:20,0.251s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/button_Generate PIN""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:20,2019-09-02 10:32:20,0.177s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/button_Create Guard Now""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:20,2019-09-02 10:32:21,0.267s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 10:32:21,2019-09-02 10:32:21,0.343s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-02 10:32:21,2019-09-02 10:32:23,2.008s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/button_Delete""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:23,2019-09-02 10:32:23,0.285s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 10:32:23,2019-09-02 10:32:24,0.423s,PASSED
+"click(findTestObject(""Object Repository/Manage Guards/button_Yes Delete""))",Chrome 76.0.3809.100,,,2019-09-02 10:32:24,2019-09-02 10:32:24,0.214s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 10:32:24,2019-09-02 10:32:24,0.630s,PASSED

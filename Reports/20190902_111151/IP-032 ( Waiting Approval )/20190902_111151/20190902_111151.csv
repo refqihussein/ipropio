@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-032 ( Waiting Approval ),Chrome 76.0.3809.100,,,2019-09-02 11:11:53,2019-09-02 11:12:44,50.681s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-032 ( Waiting Approval ),Chrome 76.0.3809.100,,,2019-09-02 11:11:54,2019-09-02 11:12:44,50.357s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-02 11:11:54,2019-09-02 11:12:11,17.192s,PASSED
+"click(findTestObject(""Object Repository/waiting approval/div_Residents""))",Chrome 76.0.3809.100,,,2019-09-02 11:12:11,2019-09-02 11:12:12,0.893s,PASSED
+"click(findTestObject(""Object Repository/waiting approval/a_Resident Awaiting Approval""))",Chrome 76.0.3809.100,,,2019-09-02 11:12:12,2019-09-02 11:12:12,0.232s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-02 11:12:12,2019-09-02 11:12:13,0.398s,PASSED
+"click(findTestObject(""Object Repository/waiting approval/button_Approve""))",Chrome 76.0.3809.100,,,2019-09-02 11:12:13,2019-09-02 11:12:44,31.314s,FAILED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-034 ( Property List ),Chrome 76.0.3809.100,,,2019-09-03 09:51:46,2019-09-03 09:52:06,19.713s,INCOMPLETE
+,,,,,,,
+Test Cases/IP0-34 ( Property List ),Chrome 76.0.3809.100,,,2019-09-03 09:51:47,2019-09-03 09:52:06,19.327s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-03 09:51:47,2019-09-03 09:52:04,17.439s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-03 09:52:04,2019-09-03 09:52:05,0.920s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/a_Property List""))",Chrome 76.0.3809.100,,,2019-09-03 09:52:05,2019-09-03 09:52:06,0.534s,FAILED

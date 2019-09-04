@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-031 ( Manage Guards )" time="30" tests="1" failures="0" errors="0">
+    <testsuite name="IP-031 ( Manage Guards )" tests="1" failures="0" errors="0" time="30" timestamp="2019-09-02 10:25:12" hostname="refqi - 10.250.250.58" id="Test Suites/IP-031 ( Manage Guards )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/Katalon Studio/ipropio otomasi/Reports/20190902_102510/IP-031 ( Manage Guards )/20190902_102510"/>
+            <property name="logFiles" value="/Users/refqi/Katalon Studio/ipropio otomasi/Reports/20190902_102510/IP-031 ( Manage Guards )/20190902_102510/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="796e3db705e7f93bc46d282bb91d811b"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-031 ( manage Guards )" classname="Test Cases/IP-031 ( manage Guards )" status="PASSED">
+            <system-out>2019-09-02 10:25:12 - [TEST_CASE][PASSED] - Test Cases/IP-031 ( manage Guards ): Test Cases/IP-031 ( manage Guards )
+
+2019-09-02 10:25:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-02 10:25:13 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-02 10:25:13 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-02 10:25:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-02 10:25:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-02 10:25:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-02 10:25:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-02 10:25:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-02 10:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-02 10:25:21 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-02 10:25:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-02 10:25:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-02 10:25:26 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-02 10:25:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-02 10:25:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-02 10:25:27 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-02 10:25:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-02 10:25:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-02 10:25:30 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-02 10:25:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-02 10:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-02 10:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-02 10:25:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-02 10:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/div_Guard  Security")): Object: 'Object Repository/Manage Guards/div_Guard  Security' is clicked on
+
+2019-09-02 10:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/div_Guard  Security' is clicked on
+
+2019-09-02 10:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/a_Manage Guards")): Object: 'Object Repository/Manage Guards/a_Manage Guards' is clicked on
+
+2019-09-02 10:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/a_Manage Guards' is clicked on
+
+2019-09-02 10:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/a_Add New Guard")): Object: 'Object Repository/Manage Guards/a_Add New Guard' is clicked on
+
+2019-09-02 10:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/a_Add New Guard' is clicked on
+
+2019-09-02 10:25:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manage Guards/input__first name"), "Henry"): Text 'Henry' is set on object 'Object Repository/Manage Guards/input__first name'
+
+2019-09-02 10:25:36 - [MESSAGE][PASSED] - Text 'Henry' is set on object 'Object Repository/Manage Guards/input__first name'
+
+2019-09-02 10:25:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manage Guards/input__last name"), "Messi"): Text 'Messi' is set on object 'Object Repository/Manage Guards/input__last name'
+
+2019-09-02 10:25:37 - [MESSAGE][PASSED] - Text 'Messi' is set on object 'Object Repository/Manage Guards/input__last name'
+
+2019-09-02 10:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manage Guards/input_land Islands_mobile number"), "0812191633333"): Text '0812191633333' is set on object 'Object Repository/Manage Guards/input_land Islands_mobile number'
+
+2019-09-02 10:25:37 - [MESSAGE][PASSED] - Text '0812191633333' is set on object 'Object Repository/Manage Guards/input_land Islands_mobile number'
+
+2019-09-02 10:25:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manage Guards/input__email"), "bbb@gmail.com"): Text 'bbb@gmail.com' is set on object 'Object Repository/Manage Guards/input__email'
+
+2019-09-02 10:25:38 - [MESSAGE][PASSED] - Text 'bbb@gmail.com' is set on object 'Object Repository/Manage Guards/input__email'
+
+2019-09-02 10:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/img")): Object: 'Object Repository/Manage Guards/img' is clicked on
+
+2019-09-02 10:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/img' is clicked on
+
+2019-09-02 10:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manage Guards/input_Staff ID_staff_id"), "0002"): Text '0002' is set on object 'Object Repository/Manage Guards/input_Staff ID_staff_id'
+
+2019-09-02 10:25:40 - [MESSAGE][PASSED] - Text '0002' is set on object 'Object Repository/Manage Guards/input_Staff ID_staff_id'
+
+2019-09-02 10:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/span_Guard")): Object: 'Object Repository/Manage Guards/span_Guard' is clicked on
+
+2019-09-02 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/span_Guard' is clicked on
+
+2019-09-02 10:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/li_Guard")): Object: 'Object Repository/Manage Guards/li_Guard' is clicked on
+
+2019-09-02 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/li_Guard' is clicked on
+
+2019-09-02 10:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/button_Generate PIN")): Object: 'Object Repository/Manage Guards/button_Generate PIN' is clicked on
+
+2019-09-02 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/button_Generate PIN' is clicked on
+
+2019-09-02 10:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/button_Create Guard Now")): Object: 'Object Repository/Manage Guards/button_Create Guard Now' is clicked on
+
+2019-09-02 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/button_Create Guard Now' is clicked on
+
+2019-09-02 10:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/button_Delete")): Object: 'Object Repository/Manage Guards/button_Delete' is clicked on
+
+2019-09-02 10:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/button_Delete' is clicked on
+
+2019-09-02 10:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manage Guards/button_Yes Delete")): Object: 'Object Repository/Manage Guards/button_Yes Delete' is clicked on
+
+2019-09-02 10:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Manage Guards/button_Yes Delete' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-02 10:25:12 - [TEST_SUITE][INCOMPLETE] - IP-031 ( Manage Guards ): null</system-out>
+        <system-err>2019-09-02 10:25:12 - [TEST_SUITE][INCOMPLETE] - IP-031 ( Manage Guards ): null</system-err>
+    </testsuite>
+</testsuites>

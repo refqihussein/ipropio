@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-030 ( Guard Shift )" time="24" tests="1" failures="0" errors="0">
+    <testsuite name="IP-030 ( Guard Shift )" tests="1" failures="0" errors="0" time="24" timestamp="2019-09-02 09:39:02" hostname="refqi - 10.250.250.58" id="Test Suites/IP-030 ( Guard Shift )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/Katalon Studio/ipropio otomasi/Reports/20190902_093900/IP-030 ( Guard Shift )/20190902_093900"/>
+            <property name="logFiles" value="/Users/refqi/Katalon Studio/ipropio otomasi/Reports/20190902_093900/IP-030 ( Guard Shift )/20190902_093900/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="39f38d65293554d61c0f415c3bddb42b"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-030 ( Guard Shift )" classname="Test Cases/IP-030 ( Guard Shift )" status="PASSED">
+            <system-out>2019-09-02 09:39:02 - [TEST_CASE][PASSED] - Test Cases/IP-030 ( Guard Shift ): Test Cases/IP-030 ( Guard Shift )
+
+2019-09-02 09:39:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-02 09:39:03 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-02 09:39:03 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-02 09:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-02 09:39:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-02 09:39:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-02 09:39:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-02 09:39:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-02 09:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-02 09:39:10 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-02 09:39:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-02 09:39:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-02 09:39:15 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-02 09:39:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-02 09:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-02 09:39:16 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-02 09:39:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-02 09:39:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-02 09:39:19 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-02 09:39:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-02 09:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-02 09:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-02 09:39:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-02 09:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/guard shift/div_Guard  Security")): Object: 'Object Repository/guard shift/div_Guard  Security' is clicked on
+
+2019-09-02 09:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/div_Guard  Security' is clicked on
+
+2019-09-02 09:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/guard shift/a_Guard Shift")): Object: 'Object Repository/guard shift/a_Guard Shift' is clicked on
+
+2019-09-02 09:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/a_Guard Shift' is clicked on
+
+2019-09-02 09:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/guard shift/a_Add New Shift")): Object: 'Object Repository/guard shift/a_Add New Shift' is clicked on
+
+2019-09-02 09:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/a_Add New Shift' is clicked on
+
+2019-09-02 09:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/guard shift/input_Name_name"), "Malam Minggu Assyi'"): Text 'Malam Minggu Assyi'' is set on object 'Object Repository/guard shift/input_Name_name'
+
+2019-09-02 09:39:23 - [MESSAGE][PASSED] - Text 'Malam Minggu Assyi'' is set on object 'Object Repository/guard shift/input_Name_name'
+
+2019-09-02 09:39:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-02 09:39:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-02 09:39:26 - [TEST_STEP][PASSED] - click(findTestObject("guard shift/input_Start Time_start time"), STOP_ON_FAILURE): Object: 'Object Repository/guard shift/input_Start Time_start time' is clicked on
+
+2019-09-02 09:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/input_Start Time_start time' is clicked on
+
+2019-09-02 09:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("guard shift/input_Start Time_start time"), "10:30"): Text '10:30' is set on object 'Object Repository/guard shift/input_Start Time_start time'
+
+2019-09-02 09:39:26 - [MESSAGE][PASSED] - Text '10:30' is set on object 'Object Repository/guard shift/input_Start Time_start time'
+
+2019-09-02 09:39:26 - [TEST_STEP][PASSED] - click(findTestObject("guard shift/input_End Time_end time")): Object: 'Object Repository/guard shift/input_End Time_end time' is clicked on
+
+2019-09-02 09:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/input_End Time_end time' is clicked on
+
+2019-09-02 09:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("guard shift/input_End Time_end time"), "20 30"): Text '20 30' is set on object 'Object Repository/guard shift/input_End Time_end time'
+
+2019-09-02 09:39:27 - [MESSAGE][PASSED] - Text '20 30' is set on object 'Object Repository/guard shift/input_End Time_end time'
+
+2019-09-02 09:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/guard shift/label_Thursday")): Object: 'Object Repository/guard shift/label_Thursday' is clicked on
+
+2019-09-02 09:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/label_Thursday' is clicked on
+
+2019-09-02 09:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/guard shift/button_Create Shift Now")): Object: 'Object Repository/guard shift/button_Create Shift Now' is clicked on
+
+2019-09-02 09:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/guard shift/button_Create Shift Now' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-02 09:39:02 - [TEST_SUITE][INCOMPLETE] - IP-030 ( Guard Shift ): null</system-out>
+        <system-err>2019-09-02 09:39:02 - [TEST_SUITE][INCOMPLETE] - IP-030 ( Guard Shift ): null</system-err>
+    </testsuite>
+</testsuites>

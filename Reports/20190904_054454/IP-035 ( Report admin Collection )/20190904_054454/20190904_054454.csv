@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-035 ( Report admin Collection ),Chrome 76.0.3809.100,,,2019-09-04 05:44:56,2019-09-04 05:45:40,43.860s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-035 ( Report admin collection ),Chrome 76.0.3809.100,,,2019-09-04 05:44:57,2019-09-04 05:45:40,43.578s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-04 05:44:57,2019-09-04 05:45:18,21.159s,PASSED
+"click(findTestObject(""Object Repository/admin collection/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:18,2019-09-04 05:45:26,8.125s,PASSED
+"click(findTestObject(""admin collection/a_Admin Collections""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:26,2019-09-04 05:45:27,0.310s,PASSED
+"click(findTestObject(""admin collection/input_Admin Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:27,2019-09-04 05:45:27,0.699s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_Keith""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:27,2019-09-04 05:45:28,0.828s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 05:45:28,2019-09-04 05:45:31,3.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 05:45:31,2019-09-04 05:45:32,0.273s,PASSED
+"click(findTestObject(""admin collection/input_Admin Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:32,0.165s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_Emerson""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:32,0.178s,PASSED
+"click(findTestObject(""admin collection/input_Admin Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:32,0.204s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_Saudara""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:32,0.196s,PASSED
+"click(findTestObject(""admin collection/input_Admin Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:32,0.222s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_iprop""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:32,2019-09-04 05:45:33,0.192s,PASSED
+"click(findTestObject(""admin collection/input_Admin Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:33,2019-09-04 05:45:33,0.169s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_jumat""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:33,2019-09-04 05:45:33,0.222s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 05:45:33,2019-09-04 05:45:36,3.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 05:45:36,2019-09-04 05:45:36,0.289s,PASSED
+"click(findTestObject(""admin collection/input_Date Range_date""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:36,2019-09-04 05:45:36,0.133s,PASSED
+"click(findTestObject(""Object Repository/admin collection/button_previous 30 days""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:36,2019-09-04 05:45:37,0.161s,PASSED
+"click(findTestObject(""admin collection/input_All_vs__search""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:37,2019-09-04 05:45:37,0.124s,PASSED
+"click(findTestObject(""Object Repository/admin collection/li_In-Hand""))",Chrome 76.0.3809.100,,,2019-09-04 05:45:37,2019-09-04 05:45:37,0.136s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-04 05:45:37,2019-09-04 05:45:40,3.008s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-04 05:45:40,2019-09-04 05:45:40,0.272s,PASSED
+closeBrowser(),Chrome 76.0.3809.100,,,2019-09-04 05:45:40,2019-09-04 05:45:40,0.143s,PASSED

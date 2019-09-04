@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-034 ( Property List ),Chrome 76.0.3809.100,,,2019-09-03 09:46:04,2019-09-03 09:47:09,1m - 5.874s,INCOMPLETE
+,,,,,,,
+Test Cases/IP0-34 ( Property List ),Chrome 76.0.3809.100,,,2019-09-03 09:46:04,2019-09-03 09:47:09,1m - 5.556s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-03 09:46:04,2019-09-03 09:46:22,17.991s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:22,2019-09-03 09:46:33,11.093s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/a_Property List""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:33,2019-09-03 09:46:34,0.337s,PASSED
+"setText(findTestObject(""Report Property List/input_House Number___BVID__171""), ""2"")",Chrome 76.0.3809.100,,,2019-09-03 09:46:34,2019-09-03 09:46:35,1.034s,PASSED
+"clearText(findTestObject(""Report Property List/input_House Number___BVID__171""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-03 09:46:35,2019-09-03 09:46:35,0.296s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 09:46:35,2019-09-03 09:46:36,1.007s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-03 09:46:36,2019-09-03 09:46:36,0.284s,PASSED
+"click(findTestObject(""Report Property List/input_Street Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:36,2019-09-03 09:46:36,0.159s,PASSED
+"click(findTestObject(""Report Property List/li_Jl Mentari Bersinar""), STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-03 09:46:36,2019-09-03 09:46:37,0.257s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-03 09:46:37,2019-09-03 09:46:37,0.310s,PASSED
+"clearText(findTestObject(""Report Property List/input_Street Name_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:37,2019-09-03 09:46:37,0.109s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 09:46:37,2019-09-03 09:46:38,1.009s,PASSED
+"click(findTestObject(""Report Property List/input_Property Type_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:38,2019-09-03 09:46:38,0.120s,PASSED
+"click(findTestObject(""Report Property List/li_Condominiums""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:38,2019-09-03 09:46:38,0.207s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-03 09:46:38,2019-09-03 09:46:39,0.301s,PASSED
+"clearText(findTestObject(""Report Property List/input_Property Type_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:39,2019-09-03 09:46:39,0.105s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 09:46:39,2019-09-03 09:46:40,1.003s,PASSED
+"click(findTestObject(""Report Property List/input_Property Status_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:40,2019-09-03 09:46:40,0.157s,PASSED
+"click(findTestObject(""Report Property List/li_Resident""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:40,2019-09-03 09:46:40,0.192s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-03 09:46:40,2019-09-03 09:46:41,0.302s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 09:46:41,2019-09-03 09:46:42,1.006s,PASSED
+"click(findTestObject(""Report Property List/input_Property Status_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:42,2019-09-03 09:46:42,0.124s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/li_No Resident""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:42,2019-09-03 09:46:42,0.174s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-03 09:46:42,2019-09-03 09:46:42,0.303s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-09-03 09:46:42,2019-09-03 09:46:43,1.008s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/a_Edit""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:43,2019-09-03 09:46:43,0.144s,PASSED
+"click(findTestObject(""Report Property List/input_Property Type_vs__search""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:43,2019-09-03 09:46:44,0.241s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/li_Bungalow""))",Chrome 76.0.3809.100,,,2019-09-03 09:46:44,2019-09-03 09:47:09,25.420s,PASSED
+"click(findTestObject(""Object Repository/Report Property List/button_Update Property Details""))",Chrome 76.0.3809.100,,,2019-09-03 09:47:09,2019-09-03 09:47:09,0.469s,FAILED
