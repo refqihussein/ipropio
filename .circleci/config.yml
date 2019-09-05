@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Execute Katalon Studio
-          command: -retry=0 -testSuitePath="Test Suites/IP-001( Login )" -executionProfile="default" -browserType="Chrome"
+          command: katalon-execute.sh -retry=0 -testSuitePath="Test Suites/IP-001( Login )" -executionProfile="default" -browserType="Chrome (headless)"
       - store-test_results:
           path: ./report
       - store-artifacts:
