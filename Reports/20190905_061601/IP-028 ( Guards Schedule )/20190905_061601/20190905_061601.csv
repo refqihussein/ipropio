@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-028 ( Guards Schedule ),Chrome 76.0.3809.100,,,2019-09-05 06:16:04,2019-09-05 06:16:27,22.785s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-028 ( Guards Schedule ),Chrome 76.0.3809.100,,,2019-09-05 06:16:05,2019-09-05 06:16:27,22.408s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-05 06:16:05,2019-09-05 06:16:26,20.724s,PASSED
+"click(findTestObject(""Object Repository/Guards Schedule/div_Guard  Security""))",Chrome 76.0.3809.100,,,2019-09-05 06:16:26,2019-09-05 06:16:27,1.192s,FAILED

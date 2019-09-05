@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-001( Login ),,,,2019-09-05 06:56:36,2019-09-05 06:56:54,18.233s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-001 (Login hit berkali kali),,,,2019-09-05 06:56:37,2019-09-05 06:56:54,17.818s,FAILED
+"openBrowser(""http://kamisa.web.iprop-dev.com/login"")",,,,2019-09-05 06:56:37,2019-09-05 06:56:54,17.277s,FAILED
