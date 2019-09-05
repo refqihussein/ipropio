@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: katalonstudio/katalon
-      environment:
+        environment:
           TZ: "Indonesia/Jakarta"
     steps:
       - checkout
