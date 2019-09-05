@@ -30,11 +30,11 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 2 * * *"
+          cron: "0 0/1 * * *"
           filters:
             branches:
               only:
-                - master
+                -  only: try-schedule
     jobs:
       - build
       - build2
