@@ -34,7 +34,7 @@ workflows:
           filters:
             branches:
               only:
-                - try-schedule
+                - schedule
     jobs:
       - build
       - build2
