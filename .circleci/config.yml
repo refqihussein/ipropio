@@ -15,7 +15,7 @@ jobs:
       - image: katalonstudio/katalon
     steps:
       - checkout
-      - run: katalon-execute.sh -browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-003(Register Resident)"
+      - run: katalon-execute.sh -browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-006 ( Create Resident)"
       - store-test_results:
           path: ./report
       - store-artifacts:
