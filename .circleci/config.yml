@@ -20,7 +20,7 @@ workflows:
     jobs:
       - build
       - test
- - store-test_results:
-          path: ./report
-      - store-artifacts:
-          path: ./report
+        - store-test_results:
+            path: ./report
+        - store-artifacts:
+            path: ./report
