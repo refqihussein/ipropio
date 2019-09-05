@@ -1,16 +1,7 @@
 version: 2
-
-    build
-  schedules:
-  - cron: '*/10 * * * *'
-    displayName: Run build each 10min
-    branches:
-      include:
-      - dev
-    always: 'true'
-  test:
-    docker:
-      - image: katalonstudio/katalon
+jobs:
+    build:
+  
     steps:
       - checkout
       - run:
@@ -20,3 +11,13 @@ version: 2
           path: ./report
       - store-artifacts:
           path: ./report
+   schedules:
+  - cron: '*/3 * * * *'
+    displayName: Run build each 3min
+    branches:
+      include:
+      - dev
+    always: 'true'
+  test:
+    docker:
+      - image: katalonstudio/katalon
