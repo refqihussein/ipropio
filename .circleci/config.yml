@@ -28,14 +28,16 @@ workflows:
   commit:
     jobs:
       - build
-      - build2
   nightly:
-    triggers:
+    triggers: #use the triggers key to indicate a scheduled build
       - schedule:
-          cron: "0 /5 * * *"
+          cron: "0 0 23 * *" # use cron syntax to set the schedule
+          filters:
+            branches:
+              only:
+                - master
                 
     jobs:
       - build
-      - build2
       
      
