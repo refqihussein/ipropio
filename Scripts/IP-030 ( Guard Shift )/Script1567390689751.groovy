@@ -17,7 +17,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('IP-001 (Login hit berkali kali)'), [('Email') : 'aaa@gmail.com', ('Password') : '123445656'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/guard shift/div_Guard  Security'))
+WebUI.click(findTestObject('guard shift/div_Guard  Security'))
 
 WebUI.click(findTestObject('Object Repository/guard shift/a_Guard Shift'))
 
