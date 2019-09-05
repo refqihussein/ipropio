@@ -1,13 +1,15 @@
 version: 2
-jobs:
-schedules:
-- cron: '0 12 * * *'
-  displayName: Every night at 12pm
-  branches:
-    include:
-    - master
-    
-  build:
+
+name: Build
+  trigger: none
+    build:
+  schedules:
+  - cron: '*/10 * * * *'
+    displayName: Run build each 10min
+    branches:
+      include:
+      - dev
+    always: 'true'
   test:
     docker:
       - image: katalonstudio/katalon
