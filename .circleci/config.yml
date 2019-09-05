@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Execute Katalon Studio
-          command: katalon-execute.sh ./Katalon\ Studio.app/Contents/MacOS/katalon --args -noSplash  -runMode=console -consoleLog -noExit -projectPath="/Users/refqi/git/ipropio/ipropiootomasi.prj" -retry=0 -testSuitePath="Test Suites/IP-001( Login )" -executionProfile="default" -browserType="Chrome (headless)"
+          command: -retry=0 -testSuitePath="Test Suites/IP-001( Login )" -executionProfile="default" -browserType="Chrome (headless)"
       - store-test_results:
           path: ./report
       - store-artifacts:
