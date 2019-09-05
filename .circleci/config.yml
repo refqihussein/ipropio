@@ -30,7 +30,8 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 * 22 * *"
+          TZ=Indonesia/Jakarta
+          cron: "0 * 23 * *"
           filters:
             branches:
               only:
