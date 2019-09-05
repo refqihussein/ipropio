@@ -15,12 +15,23 @@ jobs:
           path: ./report
   jobs:
   build:
-  
-  schedules:
-  - cron: '*/3 * * * *'
-    displayName: Run build each 3min
-    branches:
-      include:
-      - dev
-    always: 'true'
+  workflows:
+  version: 2
+  commit:
+    jobs:
+      - build
+  nightly:
+    triggers:
+      - schedule:
+          cron: "*/3 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+                - beta
+    jobs:
+      - coverage
+      always: 'true'
+
+
  
