@@ -8,6 +8,9 @@ jobs:
       - run:
           name: Execute Katalon Studio
           command: katalon-execute.sh katalon-execute.sh -retry=0 -testSuitePath="Test Suites/IP-001( Login )" -executionProfile="default" -browserType="Chrome (headless)"
+     - run:
+          name: Execute Katalon Studio
+          command: katalon-execute.sh katalon-execute.sh -retry=0 -testSuitePath="Test Suites/IP-003 (register resident)" -executionProfile="default" -browserType="Chrome (headless)"     
       - store-test_results:
           path: ./report
       - store-artifacts:
