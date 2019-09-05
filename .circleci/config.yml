@@ -28,7 +28,8 @@ workflows:
   commit:
     jobs:
       - build
-  nightly:
+      - build2
+Schedule-workflow:
     triggers: #use the triggers key to indicate a scheduled build
       - schedule:
           cron: "0 0 23 * *" # use cron syntax to set the schedule
@@ -39,5 +40,6 @@ workflows:
                 
     jobs:
       - build
+      - build2
       
      
