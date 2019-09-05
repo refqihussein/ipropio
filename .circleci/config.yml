@@ -1,6 +1,6 @@
 version: 2
 
-    build:
+    build
   schedules:
   - cron: '*/10 * * * *'
     displayName: Run build each 10min
