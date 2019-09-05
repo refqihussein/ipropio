@@ -20,7 +20,7 @@ test1:
       - run:
           name: Execute Katalon Studio
           command: katalon-execute.sh -retry=0 -testSuitePath="Test Suites/IP-003 (register resident)" -executionProfile="default" -browserType="Chrome (headless)"
-      - store-test_results:
+      - store-test_results2:
           path: ./report
           
          test3:
@@ -32,7 +32,7 @@ test1:
       - run:
           name: Execute Katalon Studio
           command: katalon-execute.sh -retry=0 -testSuitePath="Test Suites/IP-004 (add new admin)" -executionProfile="default" -browserType="Chrome (headless)"
-      - store-test_results:
+      - store-test_results3:
           path: ./report
       - store-artifacts:
           path: ./report
