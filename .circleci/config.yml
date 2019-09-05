@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+  test:
     docker:
       - image: katalonstudio/katalon
     steps:
@@ -12,7 +13,7 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-build:
+test1:
     docker:
       - image: katalonstudio/katalon
     steps:
@@ -25,8 +26,9 @@ build:
       - store-artifacts:
           path: ./report
           
-          build:
-    docker:
+         test3:
+         
+         docker:
       - image: katalonstudio/katalon
     steps:
       - checkout
