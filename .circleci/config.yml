@@ -15,12 +15,3 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-          
-          
-          
-workflows:
-version: 2
-jobs: 
--build
--run
--run
