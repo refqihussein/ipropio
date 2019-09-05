@@ -29,10 +29,12 @@ workflows:
     jobs:
       - build
       - build2
+        environment:
+          TZ: "Indonesia/Jakarta"
   nightly:
     triggers:
       - schedule:
-          cron: "0 * 23 * *"
+          cron: "0 /5 * * *"
           filters:
             branches:
               only:
