@@ -10,7 +10,7 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-  test:
+  build2:
     docker:
       - image: katalonstudio/katalon
     steps:
@@ -26,5 +26,5 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test
+      - build2
      
