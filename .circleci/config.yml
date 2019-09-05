@@ -13,10 +13,8 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-  jobs:
-  build:
+          
   workflows:
-  version: 2
   commit:
     jobs:
       - build
