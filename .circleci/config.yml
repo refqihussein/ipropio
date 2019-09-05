@@ -5,10 +5,26 @@ jobs:
       - image: katalonstudio/katalon
     steps:
       - checkout
-      - run:
-          name: Execute Katalon Studio
-          command: katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001 ( Login )"
+      - run: katalon-execute.sh -browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
       - store-test_results:
           path: ./report
       - store-artifacts:
           path: ./report
+  test:
+    docker:
+      - image: katalonstudio/katalon
+    steps:
+      - checkout
+      - run: katalon-execute.sh -browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-028 ( Guards Schedule )"
+      - store-test_results:
+          path: ./report
+      - store-artifacts:
+          path: ./report
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test
+     
