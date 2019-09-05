@@ -13,23 +13,3 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-          
-  workflows:
-  commit:
-    jobs:
-      - build
-  nightly:
-    triggers:
-      - schedule:
-          cron: "*/3 * * * *"
-          filters:
-            branches:
-              only:
-                - master
-                - beta
-    jobs:
-      - coverage
-      always: 'true'
-
-
- 
