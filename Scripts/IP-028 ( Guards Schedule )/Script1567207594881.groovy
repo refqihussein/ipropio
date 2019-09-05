@@ -16,9 +16,15 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('IP-001 (Login hit berkali kali)'), [('Email') : 'aaa@gmail.com', ('Password') : '123445656'], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Guards Schedule/div_Guard  Security'))
 
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Object Repository/Guards Schedule/a_Guard Schedule'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Guards Schedule/a_Create Schedule'))
 
