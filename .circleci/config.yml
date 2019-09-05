@@ -1,7 +1,9 @@
 version: 2
 jobs:
     build:
-  
+   test:
+    docker:
+      - image: katalonstudio/katalon
     steps:
       - checkout
       - run:
@@ -11,13 +13,14 @@ jobs:
           path: ./report
       - store-artifacts:
           path: ./report
-   schedules:
+  jobs:
+  build:
+  
+  schedules:
   - cron: '*/3 * * * *'
     displayName: Run build each 3min
     branches:
       include:
       - dev
     always: 'true'
-  test:
-    docker:
-      - image: katalonstudio/katalon
+ 
