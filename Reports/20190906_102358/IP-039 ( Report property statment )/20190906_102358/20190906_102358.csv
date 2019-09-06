@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-039 ( Report property statment ),Chrome 76.0.3809.100,,,2019-09-06 10:24:06,2019-09-06 10:24:28,22.156s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-039 ( Report Property statment ),Chrome 76.0.3809.100,,,2019-09-06 10:24:06,2019-09-06 10:24:28,21.840s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-06 10:24:07,2019-09-06 10:24:24,16.952s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-06 10:24:24,2019-09-06 10:24:26,2.005s,PASSED
+"click(findTestObject(""Object Repository/report property statment/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:26,2019-09-06 10:24:26,0.135s,PASSED
+"click(findTestObject(""Object Repository/report property statment/a_Property Statement""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:26,2019-09-06 10:24:26,0.243s,PASSED
+"click(findTestObject(""report property statment/input_Choose Street  Road_vs__search""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:26,2019-09-06 10:24:27,1.260s,PASSED
+"click(findTestObject(""Object Repository/report property statment/li_Jl Gembira ok""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:27,2019-09-06 10:24:28,0.264s,PASSED
+"click(findTestObject(""report property statment/input_House Number (optional)_vs__search""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:28,2019-09-06 10:24:28,0.234s,PASSED
+"click(findTestObject(""Object Repository/report property statment/li_2""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:28,2019-09-06 10:24:28,0.173s,PASSED
+"click(findTestObject(""Object Repository/report property statment/button_Search""))",Chrome 76.0.3809.100,,,2019-09-06 10:24:28,2019-09-06 10:24:28,0.220s,FAILED

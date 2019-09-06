@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-038 ( Report Resident List )" time="29" tests="0" failures="1" errors="0">
+    <testsuite name="IP-038 ( Report Resident List )" tests="0" failures="1" errors="0" time="29" timestamp="2019-09-06 09:41:13" hostname="refqi - 10.250.250.58" id="Test Suites/IP-038 ( Report Resident List )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/ipropio/Reports/20190906_094102/IP-038 ( Report Resident List )/20190906_094102"/>
+            <property name="logFiles" value="/Users/refqi/git/ipropio/Reports/20190906_094102/IP-038 ( Report Resident List )/20190906_094102/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/git/ipropio/Reports/20190906_094102/IP-038 ( Report Resident List )/20190906_094102/1567737699797.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="09b1105694f3c11f3d896b05fe12fc2a"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-038 ( Report Resident List )" classname="Test Cases/IP-038 ( Report Resident List )" status="FAILED">
+            <failure type="FAILED" message="Test Cases/IP-038 ( Report Resident List ) FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name'&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)&#xA;&#x9;at IP-038 ( Report Resident List ).run(IP-038 ( Report Resident List ):34)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xA;&#x9;at TempTestSuite1567737662640.run(TempTestSuite1567737662640.groovy:35)&#xA;Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated&#xA;  (Session info: chrome=76.0.3809.100)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'refqihussein', ip: 'fe80:0:0:0:4f8:3b8d:d63d:5477%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/48/kr7c_wm56yv...}, goog:chromeOptions: {debuggerAddress: localhost:49724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 09b1105694f3c11f3d896b05fe12fc2a&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xA;&#x9;... 19 more&#xA;"/>
+            <system-out>2019-09-06 09:41:14 - [TEST_CASE][FAILED] - Test Cases/IP-038 ( Report Resident List ): Test Cases/IP-038 ( Report Resident List ) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at IP-038 ( Report Resident List ).run(IP-038 ( Report Resident List ):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567737662640.run(TempTestSuite1567737662640.groovy:35)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'refqihussein', ip: 'fe80:0:0:0:4f8:3b8d:d63d:5477%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/48/kr7c_wm56yv...}, goog:chromeOptions: {debuggerAddress: localhost:49724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09b1105694f3c11f3d896b05fe12fc2a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-09-06 09:41:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 09:41:15 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-06 09:41:15 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 09:41:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-06 09:41:16 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-06 09:41:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 09:41:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 09:41:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 09:41:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 09:41:27 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 09:41:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 09:41:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 09:41:32 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-06 09:41:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-06 09:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 09:41:33 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 09:41:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 09:41:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 09:41:36 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-06 09:41:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-06 09:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 09:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 09:41:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 09:41:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-09-06 09:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-09-06 09:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/div_Reports")): Object: 'Object Repository/Report Resident list/div_Reports' is clicked on
+
+2019-09-06 09:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/div_Reports' is clicked on
+
+2019-09-06 09:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/a_Resident List")): Object: 'Object Repository/Report Resident list/a_Resident List' is clicked on
+
+2019-09-06 09:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/a_Resident List' is clicked on
+
+2019-09-06 09:41:39 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-09-06 09:41:39 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-09-06 09:41:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 09:41:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_094102/IP-038 ( Report Resident List )/20190906_094102/1567737699797.png]]
+
+2019-09-06 09:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/td_test resident 2")): Object: 'Object Repository/Report Resident list/td_test resident 2' is clicked on
+
+2019-09-06 09:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/td_test resident 2' is clicked on
+
+2019-09-06 09:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/button_Edit Resident Data")): Object: 'Object Repository/Report Resident list/button_Edit Resident Data' is clicked on
+
+2019-09-06 09:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Edit Resident Data' is clicked on
+
+2019-09-06 09:41:42 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Report Resident list/input__first name"), "testing"): Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at IP-038 ( Report Resident List ).run(IP-038 ( Report Resident List ):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567737662640.run(TempTestSuite1567737662640.groovy:35)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'refqihussein', ip: 'fe80:0:0:0:4f8:3b8d:d63d:5477%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/48/kr7c_wm56yv...}, goog:chromeOptions: {debuggerAddress: localhost:49724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09b1105694f3c11f3d896b05fe12fc2a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1567736927278.run(Script1567736927278.groovy:34)
+	... 13 more
+)
+
+2019-09-06 09:41:43 - [MESSAGE][FAILED] - Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at IP-038 ( Report Resident List ).run(IP-038 ( Report Resident List ):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567737662640.run(TempTestSuite1567737662640.groovy:35)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'refqihussein', ip: 'fe80:0:0:0:4f8:3b8d:d63d:5477%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/48/kr7c_wm56yv...}, goog:chromeOptions: {debuggerAddress: localhost:49724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09b1105694f3c11f3d896b05fe12fc2a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1567736927278.run(Script1567736927278.groovy:34)
+	... 13 more
+)</system-out>
+            <system-err>2019-09-06 09:41:14 - [TEST_CASE][FAILED] - Test Cases/IP-038 ( Report Resident List ): Test Cases/IP-038 ( Report Resident List ) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testing' of object 'Object Repository/Report Resident list/input__first name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at IP-038 ( Report Resident List ).run(IP-038 ( Report Resident List ):34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567737662640.run(TempTestSuite1567737662640.groovy:35)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'refqihussein', ip: 'fe80:0:0:0:4f8:3b8d:d63d:5477%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/48/kr7c_wm56yv...}, goog:chromeOptions: {debuggerAddress: localhost:49724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 09b1105694f3c11f3d896b05fe12fc2a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-09-06 09:41:13 - [TEST_SUITE][INCOMPLETE] - IP-038 ( Report Resident List ): null</system-out>
+        <system-err>2019-09-06 09:41:13 - [TEST_SUITE][INCOMPLETE] - IP-038 ( Report Resident List ): null</system-err>
+    </testsuite>
+</testsuites>

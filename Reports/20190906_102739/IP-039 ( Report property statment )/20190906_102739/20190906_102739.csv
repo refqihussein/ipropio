@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-039 ( Report property statment ),Chrome 76.0.3809.100,,,2019-09-06 10:27:47,2019-09-06 10:28:17,29.756s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-039 ( Report Property statment ),Chrome 76.0.3809.100,,,2019-09-06 10:27:48,2019-09-06 10:28:17,29.385s,PASSED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-06 10:27:48,2019-09-06 10:28:06,17.690s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-06 10:28:06,2019-09-06 10:28:08,2.004s,PASSED
+"click(findTestObject(""Object Repository/report property statment/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:08,2019-09-06 10:28:08,0.170s,PASSED
+"click(findTestObject(""Object Repository/report property statment/a_Property Statement""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:08,2019-09-06 10:28:08,0.286s,PASSED
+"click(findTestObject(""report property statment/input_Choose Street  Road_vs__search""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:08,2019-09-06 10:28:10,1.253s,PASSED
+"click(findTestObject(""Object Repository/report property statment/li_Jl Gembira ok""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:10,2019-09-06 10:28:10,0.239s,PASSED
+"click(findTestObject(""report property statment/input_House Number (optional)_vs__search""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:10,2019-09-06 10:28:10,0.212s,PASSED
+"click(findTestObject(""Object Repository/report property statment/li_2""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:10,2019-09-06 10:28:10,0.216s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-06 10:28:10,2019-09-06 10:28:12,2.009s,PASSED
+"click(findTestObject(""Object Repository/report property statment/button_Search""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:12,2019-09-06 10:28:12,0.159s,PASSED
+delay(4),Chrome 76.0.3809.100,,,2019-09-06 10:28:12,2019-09-06 10:28:16,4.007s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 10:28:16,2019-09-06 10:28:17,0.261s,PASSED
+"click(findTestObject(""Object Repository/report property statment/button_Back""))",Chrome 76.0.3809.100,,,2019-09-06 10:28:17,2019-09-06 10:28:17,0.183s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 10:28:17,2019-09-06 10:28:17,0.291s,PASSED

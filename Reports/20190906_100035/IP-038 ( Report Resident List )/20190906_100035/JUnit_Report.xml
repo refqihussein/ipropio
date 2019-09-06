@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-038 ( Report Resident List )" time="37" tests="1" failures="0" errors="0">
+    <testsuite name="IP-038 ( Report Resident List )" tests="1" failures="0" errors="0" time="37" timestamp="2019-09-06 10:00:43" hostname="refqi - 10.250.250.58" id="Test Suites/IP-038 ( Report Resident List )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035"/>
+            <property name="logFiles" value="/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738863543.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738872239.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738872644.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738873136.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738878993.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738879494.png, /Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738880089.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="6e84110b389a70ad7f5702d4be99e263"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-038 ( Report Resident List )" classname="Test Cases/IP-038 ( Report Resident List )" status="PASSED">
+            <system-out>2019-09-06 10:00:43 - [TEST_CASE][PASSED] - Test Cases/IP-038 ( Report Resident List ): Test Cases/IP-038 ( Report Resident List )
+
+2019-09-06 10:00:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 10:00:44 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-06 10:00:44 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 10:00:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-06 10:00:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-06 10:00:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 10:00:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 10:00:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 10:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 10:00:51 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 10:00:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 10:00:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 10:00:56 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-06 10:00:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-06 10:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 10:00:57 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 10:00:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 10:01:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 10:01:00 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-06 10:01:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-06 10:01:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 10:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 10:01:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 10:01:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-09-06 10:01:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-09-06 10:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/div_Reports")): Object: 'Object Repository/Report Resident list/div_Reports' is clicked on
+
+2019-09-06 10:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/div_Reports' is clicked on
+
+2019-09-06 10:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/a_Resident List")): Object: 'Object Repository/Report Resident list/a_Resident List' is clicked on
+
+2019-09-06 10:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/a_Resident List' is clicked on
+
+2019-09-06 10:01:03 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-09-06 10:01:03 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-09-06 10:01:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738863543.png]]
+
+2019-09-06 10:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/td_test resident 2")): Object: 'Object Repository/Report Resident list/td_test resident 2' is clicked on
+
+2019-09-06 10:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/td_test resident 2' is clicked on
+
+2019-09-06 10:01:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 10:01:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 10:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/button_Edit Resident Data")): Object: 'Object Repository/Report Resident list/button_Edit Resident Data' is clicked on
+
+2019-09-06 10:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Edit Resident Data' is clicked on
+
+2019-09-06 10:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Report Resident list/input__first name"), "testing"): Text 'testing' is set on object 'Object Repository/Report Resident list/input__first name'
+
+2019-09-06 10:01:11 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Report Resident list/input__first name'
+
+2019-09-06 10:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Report Resident list/input__last name"), "resident 3"): Text 'resident 3' is set on object 'Object Repository/Report Resident list/input__last name'
+
+2019-09-06 10:01:11 - [MESSAGE][PASSED] - Text 'resident 3' is set on object 'Object Repository/Report Resident list/input__last name'
+
+2019-09-06 10:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("Report Resident list/input_House Telephone Number_house-telephone-number"), "021222222"): Text '021222222' is set on object 'Object Repository/Report Resident list/input_House Telephone Number_house-telephone-number'
+
+2019-09-06 10:01:12 - [MESSAGE][PASSED] - Text '021222222' is set on object 'Object Repository/Report Resident list/input_House Telephone Number_house-telephone-number'
+
+2019-09-06 10:01:12 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-09-06 10:01:12 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-09-06 10:01:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738872239.png]]
+
+2019-09-06 10:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Report Resident list/button_Save Resident Data")): Object: 'Object Repository/Report Resident list/button_Save Resident Data' is clicked on
+
+2019-09-06 10:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Save Resident Data' is clicked on
+
+2019-09-06 10:01:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738872644.png]]
+
+2019-09-06 10:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/button_Back")): Object: 'Object Repository/Report Resident list/button_Back' is clicked on
+
+2019-09-06 10:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Back' is clicked on
+
+2019-09-06 10:01:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738873136.png]]
+
+2019-09-06 10:01:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 10:01:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 10:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/button_Assign")): Object: 'Object Repository/Report Resident list/button_Assign' is clicked on
+
+2019-09-06 10:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Assign' is clicked on
+
+2019-09-06 10:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Report Resident list/button_Yes Assign")): Object: 'Object Repository/Report Resident list/button_Yes Assign' is clicked on
+
+2019-09-06 10:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Yes Assign' is clicked on
+
+2019-09-06 10:01:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738878993.png]]
+
+2019-09-06 10:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Report Resident list/button_Delete")): Object: 'Object Repository/Report Resident list/button_Delete' is clicked on
+
+2019-09-06 10:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Delete' is clicked on
+
+2019-09-06 10:01:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738879494.png]]
+
+2019-09-06 10:01:19 - [TEST_STEP][PASSED] - click(findTestObject("Report Resident list/button_Yes Delete")): Object: 'Object Repository/Report Resident list/button_Yes Delete' is clicked on
+
+2019-09-06 10:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Report Resident list/button_Yes Delete' is clicked on
+
+2019-09-06 10:01:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 10:01:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_100035/IP-038 ( Report Resident List )/20190906_100035/1567738880089.png]]
+
+2019-09-06 10:01:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-06 10:01:20 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-06 10:00:43 - [TEST_SUITE][INCOMPLETE] - IP-038 ( Report Resident List ): null</system-out>
+        <system-err>2019-09-06 10:00:43 - [TEST_SUITE][INCOMPLETE] - IP-038 ( Report Resident List ): null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-038 ( Report Resident List ),Chrome 76.0.3809.100,,,2019-09-06 09:59:15,2019-09-06 09:59:45,29.800s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-038 ( Report Resident List ),Chrome 76.0.3809.100,,,2019-09-06 09:59:16,2019-09-06 09:59:45,29.150s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-06 09:59:16,2019-09-06 09:59:33,17.288s,PASSED
+delay(2),Chrome 76.0.3809.100,,,2019-09-06 09:59:33,2019-09-06 09:59:35,2.015s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/div_Reports""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:35,2019-09-06 09:59:35,0.108s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/a_Resident List""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:35,2019-09-06 09:59:36,0.181s,PASSED
+delay(0),Chrome 76.0.3809.100,,,2019-09-06 09:59:36,2019-09-06 09:59:36,0.005s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 09:59:36,2019-09-06 09:59:36,0.341s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/td_test resident 2""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:36,2019-09-06 09:59:37,1.247s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-06 09:59:37,2019-09-06 09:59:42,5.004s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/button_Edit Resident Data""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:42,2019-09-06 09:59:42,0.205s,PASSED
+"setText(findTestObject(""Report Resident list/input__first name""), ""testing"")",Chrome 76.0.3809.100,,,2019-09-06 09:59:42,2019-09-06 09:59:43,0.394s,PASSED
+"setText(findTestObject(""Report Resident list/input__last name""), ""resident 3"")",Chrome 76.0.3809.100,,,2019-09-06 09:59:43,2019-09-06 09:59:43,0.419s,PASSED
+"setText(findTestObject(""Report Resident list/input_House Telephone Number_house-telephone-number""), ""021222222"")",Chrome 76.0.3809.100,,,2019-09-06 09:59:43,2019-09-06 09:59:43,0.266s,PASSED
+delay(0),Chrome 76.0.3809.100,,,2019-09-06 09:59:43,2019-09-06 09:59:43,0.004s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 09:59:43,2019-09-06 09:59:44,0.280s,PASSED
+"click(findTestObject(""Report Resident list/button_Save Resident Data""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:44,2019-09-06 09:59:44,0.112s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 09:59:44,2019-09-06 09:59:44,0.314s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/button_Back""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:44,2019-09-06 09:59:44,0.137s,PASSED
+takeScreenshot(),Chrome 76.0.3809.100,,,2019-09-06 09:59:44,2019-09-06 09:59:45,0.310s,PASSED
+"click(findTestObject(""Object Repository/Report Resident list/button_Assign""))",Chrome 76.0.3809.100,,,2019-09-06 09:59:45,2019-09-06 09:59:45,0.141s,FAILED
