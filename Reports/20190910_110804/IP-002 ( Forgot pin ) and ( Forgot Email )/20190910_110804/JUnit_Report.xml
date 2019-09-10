@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-002 ( Forgot pin ) and ( Forgot Email )" time="50" tests="1" failures="0" errors="0">
+    <testsuite name="IP-002 ( Forgot pin ) and ( Forgot Email )" tests="1" failures="0" errors="0" time="50" timestamp="2019-09-10 11:08:13" hostname="refqi - 10.250.250.58" id="Test Suites/IP-002 ( Forgot pin ) and ( Forgot Email )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/ipropio/Reports/20190910_110804/IP-002 ( Forgot pin ) and ( Forgot Email )/20190910_110804"/>
+            <property name="logFiles" value="/Users/refqi/git/ipropio/Reports/20190910_110804/IP-002 ( Forgot pin ) and ( Forgot Email )/20190910_110804/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/click here.png, /Users/refqi/Documents/webippro/set email.png, /Users/refqi/Documents/webippro/password sent.png, /Users/refqi/git/ipropio/Reports/20190910_110804/IP-002 ( Forgot pin ) and ( Forgot Email )/20190910_110804/1568088535911.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="0b2a3e0789fc436cb88d10a4d0d67dfe"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-002 (Forgot Pin)" classname="Test Cases/IP-002 (Forgot Pin)" status="PASSED">
+            <system-out>2019-09-10 11:08:13 - [TEST_CASE][PASSED] - Test Cases/IP-002 (Forgot Pin): Test Cases/IP-002 (Forgot Pin)
+
+2019-09-10 11:08:14 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-10 11:08:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-10 11:08:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-10 11:08:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-10 11:08:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-10 11:08:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-10 11:08:24 - [TEST_STEP][PASSED] - check(findTestObject("Forgot Pin/Page_iPropio - Login/a_Click here")): Object 'Object Repository/Forgot Pin/Page_iPropio - Login/a_Click here' is checked
+
+2019-09-10 11:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Pin/Page_iPropio - Login/a_Click here' is checked
+
+2019-09-10 11:08:29 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/click here.png"): Taking screenshot successfully
+
+2019-09-10 11:08:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/click here.png]]
+
+2019-09-10 11:08:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-10 11:08:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-10 11:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Pin/Page_iPropio - Forgot Password/input_Email Address_email"), "refqi.hussein@gmail.com"): Text 'refqi.hussein@gmail.com' is set on object 'Object Repository/Forgot Pin/Page_iPropio - Forgot Password/input_Email Address_email'
+
+2019-09-10 11:08:33 - [MESSAGE][PASSED] - Text 'refqi.hussein@gmail.com' is set on object 'Object Repository/Forgot Pin/Page_iPropio - Forgot Password/input_Email Address_email'
+
+2019-09-10 11:08:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-10 11:08:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-10 11:08:38 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/set email.png"): Taking screenshot successfully
+
+2019-09-10 11:08:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/set email.png]]
+
+2019-09-10 11:08:39 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Pin/Page_iPropio - Forgot Password/button_SEND PASSWORD REQUEST")): Object: 'Object Repository/Forgot Pin/Page_iPropio - Forgot Password/button_SEND PASSWORD REQUEST' is clicked on
+
+2019-09-10 11:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Pin/Page_iPropio - Forgot Password/button_SEND PASSWORD REQUEST' is clicked on
+
+2019-09-10 11:08:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-10 11:08:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-10 11:08:44 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/password sent.png"): Taking screenshot successfully
+
+2019-09-10 11:08:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/password sent.png]]
+
+2019-09-10 11:08:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-021 ( Forgot email )"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-021 ( Forgot email )' successfully
+
+2019-09-10 11:08:45 - [TEST_CASE][PASSED] - Test Cases/IP-021 ( Forgot email ): Test Cases/IP-021 ( Forgot email )
+
+2019-09-10 11:08:45 - [TEST_STEP][PASSED] - openBrowser("www.gmail.com"): Browser is opened with url: 'www.gmail.com'
+
+2019-09-10 11:08:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-09-10 11:08:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-10 11:08:48 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2019-09-10 11:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("forgot email/input_Lanjutkan ke Gmail_identifier"), "refqi.hussein@gmail.com"): Text 'refqi.hussein@gmail.com' is set on object 'Object Repository/forgot email/input_Lanjutkan ke Gmail_identifier'
+
+2019-09-10 11:08:49 - [MESSAGE][PASSED] - Text 'refqi.hussein@gmail.com' is set on object 'Object Repository/forgot email/input_Lanjutkan ke Gmail_identifier'
+
+2019-09-10 11:08:49 - [TEST_STEP][PASSED] - click(findTestObject("forgot email/div_Berikutnya")): Object: 'Object Repository/forgot email/div_Berikutnya' is clicked on
+
+2019-09-10 11:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot email/div_Berikutnya' is clicked on
+
+2019-09-10 11:08:49 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-09-10 11:08:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-09-10 11:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("forgot email/input_Terlalu sering gagal_password"), "refqihussein9892"): Text 'refqihussein9892' is set on object 'Object Repository/forgot email/input_Terlalu sering gagal_password'
+
+2019-09-10 11:08:53 - [MESSAGE][PASSED] - Text 'refqihussein9892' is set on object 'Object Repository/forgot email/input_Terlalu sering gagal_password'
+
+2019-09-10 11:08:53 - [TEST_STEP][PASSED] - click(findTestObject("forgot email/div_Berikutnya")): Object: 'Object Repository/forgot email/div_Berikutnya' is clicked on
+
+2019-09-10 11:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot email/div_Berikutnya' is clicked on
+
+2019-09-10 11:08:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-09-10 11:08:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-09-10 11:08:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-10 11:09:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190910_110804/IP-002 ( Forgot pin ) and ( Forgot Email )/20190910_110804/1568088535911.png]]
+
+2019-09-10 11:09:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-021 ( Forgot email )' successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-10 11:08:13 - [TEST_SUITE][INCOMPLETE] - IP-002 ( Forgot pin ) and ( Forgot Email ): null</system-out>
+        <system-err>2019-09-10 11:08:13 - [TEST_SUITE][INCOMPLETE] - IP-002 ( Forgot pin ) and ( Forgot Email ): null</system-err>
+    </testsuite>
+</testsuites>

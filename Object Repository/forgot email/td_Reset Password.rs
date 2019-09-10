@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -44,14 +44,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:mw&quot;)/div[1]/table[@class=&quot;m_-6590445812445924523wrapper&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;m_-6590445812445924523content&quot;]/tbody[1]/tr[2]/td[@class=&quot;m_-6590445812445924523body&quot;]/table[@class=&quot;m_-6590445812445924523inner-body&quot;]/tbody[1]/tr[1]/td[@class=&quot;m_-6590445812445924523content-cell&quot;]/table[@class=&quot;m_-6590445812445924523action&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]</value>
+      <value>id(&quot;:nb&quot;)/div[1]/table[@class=&quot;m_4064006954598829930wrapper&quot;]/tbody[1]/tr[1]/td[1]/table[@class=&quot;m_4064006954598829930content&quot;]/tbody[1]/tr[2]/td[@class=&quot;m_4064006954598829930body&quot;]/table[@class=&quot;m_4064006954598829930inner-body&quot;]/tbody[1]/tr[1]/td[@class=&quot;m_4064006954598829930content-cell&quot;]/table[@class=&quot;m_4064006954598829930action&quot;]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id=':mw']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      <value>//div[@id=':nb']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,5 +80,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':mw']/div/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td</value>
    </webElementXpaths>
 </WebElementEntity>

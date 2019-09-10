@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-040 ( admin menu )" time="47" tests="1" failures="0" errors="0">
+    <testsuite name="IP-040 ( admin menu )" tests="1" failures="0" errors="0" time="47" timestamp="2019-09-06 17:15:23" hostname="refqi - 10.250.250.58" id="Test Suites/IP-040 ( admin menu )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513"/>
+            <property name="logFiles" value="/Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png, /Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513/1567764960188.png, /Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513/1567764970809.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="1b557c7402ed63b0fde67dcad9c567f3"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-040 ( admin menu)" classname="Test Cases/IP-040 ( admin menu)" status="PASSED">
+            <system-out>2019-09-06 17:15:24 - [TEST_CASE][PASSED] - Test Cases/IP-040 ( admin menu): Test Cases/IP-040 ( admin menu)
+
+2019-09-06 17:15:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 17:15:24 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-06 17:15:24 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 17:15:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-06 17:15:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-06 17:15:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 17:15:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 17:15:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 17:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 17:15:32 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 17:15:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 17:15:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 17:15:37 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-06 17:15:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-06 17:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 17:15:38 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 17:15:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 17:15:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 17:15:41 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-06 17:15:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-06 17:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 17:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 17:15:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 17:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/a_Admins")): Object: 'Object Repository/admin menu/a_Admins' is clicked on
+
+2019-09-06 17:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/a_Admins' is clicked on
+
+2019-09-06 17:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Actions")): Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 17:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 17:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/a_Edit")): Object: 'Object Repository/admin menu/a_Edit' is clicked on
+
+2019-09-06 17:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/a_Edit' is clicked on
+
+2019-09-06 17:15:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__first name"), "tesq"): Text 'tesq' is set on object 'Object Repository/admin menu/input__first name'
+
+2019-09-06 17:15:46 - [MESSAGE][PASSED] - Text 'tesq' is set on object 'Object Repository/admin menu/input__first name'
+
+2019-09-06 17:15:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__last name"), "otomasi"): Text 'otomasi' is set on object 'Object Repository/admin menu/input__last name'
+
+2019-09-06 17:15:46 - [MESSAGE][PASSED] - Text 'otomasi' is set on object 'Object Repository/admin menu/input__last name'
+
+2019-09-06 17:15:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input_House Telephone Number_house_telephone"), "09292929292"): Text '09292929292' is set on object 'Object Repository/admin menu/input_House Telephone Number_house_telephone'
+
+2019-09-06 17:15:47 - [MESSAGE][PASSED] - Text '09292929292' is set on object 'Object Repository/admin menu/input_House Telephone Number_house_telephone'
+
+2019-09-06 17:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 17:15:47 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 17:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Save Admin Details")): Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 17:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 17:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__email"), "aaaaaa@gmail.com"): Text 'aaaaaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 17:15:48 - [MESSAGE][PASSED] - Text 'aaaaaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 17:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Save Admin Details")): Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 17:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 17:15:48 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-09-06 17:15:54 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-09-06 17:15:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-09-06 17:15:55 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-09-06 17:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Actions")): Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 17:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 17:15:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-09-06 17:16:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-09-06 17:16:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 17:16:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513/1567764960188.png]]
+
+2019-09-06 17:16:00 - [TEST_STEP][PASSED] - click(findTestObject("admin menu/a_Delete")): Object: 'Object Repository/admin menu/a_Delete' is clicked on
+
+2019-09-06 17:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/a_Delete' is clicked on
+
+2019-09-06 17:16:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 17:16:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 17:16:05 - [TEST_STEP][PASSED] - click(findTestObject("admin menu/button_Yes Delete")): Object: 'Object Repository/admin menu/button_Yes Delete' is clicked on
+
+2019-09-06 17:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Yes Delete' is clicked on
+
+2019-09-06 17:16:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 17:16:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 17:16:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-09-06 17:16:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/git/ipropio/Reports/20190906_171513/IP-040 ( admin menu )/20190906_171513/1567764970809.png]]
+
+2019-09-06 17:16:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-06 17:16:11 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-06 17:15:23 - [TEST_SUITE][INCOMPLETE] - IP-040 ( admin menu ): null</system-out>
+        <system-err>2019-09-06 17:15:23 - [TEST_SUITE][INCOMPLETE] - IP-040 ( admin menu ): null</system-err>
+    </testsuite>
+</testsuites>

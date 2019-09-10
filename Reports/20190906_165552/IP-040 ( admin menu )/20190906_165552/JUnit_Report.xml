@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="IP-040 ( admin menu )" time="60" tests="0" failures="1" errors="0">
+    <testsuite name="IP-040 ( admin menu )" tests="0" failures="1" errors="0" time="60" timestamp="2019-09-06 16:56:00" hostname="refqi - 10.250.250.58" id="Test Suites/IP-040 ( admin menu )">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/refqi/git/ipropio/Reports/20190906_165552/IP-040 ( admin menu )/20190906_165552"/>
+            <property name="logFiles" value="/Users/refqi/git/ipropio/Reports/20190906_165552/IP-040 ( admin menu )/20190906_165552/execution0.log"/>
+            <property name="attachments" value="/Users/refqi/Documents/webippro/4.png, /Users/refqi/Documents/webippro/5.png"/>
+            <property name="hostName" value="refqi - 10.250.250.58"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.250.250.58"/>
+            <property name="sessionId" value="c04ba59480ae50db687790e5d776e80d"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/IP-040 ( admin menu)" classname="Test Cases/IP-040 ( admin menu)" status="FAILED">
+            <failure type="FAILED" message="Test Cases/IP-040 ( admin menu) FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin menu/button_Actions'&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)&#xA;&#x9;at IP-040 ( admin menu).run(IP-040 ( admin menu):42)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xA;&#x9;at TempTestSuite1567763752063.run(TempTestSuite1567763752063.groovy:35)&#xA;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin menu/button_Actions' located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']' not found&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xA;&#x9;... 19 more&#xA;"/>
+            <system-out>2019-09-06 16:56:00 - [TEST_CASE][FAILED] - Test Cases/IP-040 ( admin menu): Test Cases/IP-040 ( admin menu) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin menu/button_Actions'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-040 ( admin menu).run(IP-040 ( admin menu):42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567763752063.run(TempTestSuite1567763752063.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin menu/button_Actions' located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-09-06 16:56:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IP-001 (Login hit berkali kali)"), ["Email":"aaa@gmail.com", "Password":"123445656"], STOP_ON_FAILURE): Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 16:56:01 - [TEST_CASE][PASSED] - Test Cases/IP-001 (Login hit berkali kali): Test Cases/IP-001 (Login hit berkali kali)
+
+2019-09-06 16:56:01 - [TEST_STEP][PASSED] - openBrowser("http://kamisa.web.iprop-dev.com/login"): Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 16:56:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-06 16:56:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-06 16:56:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://kamisa.web.iprop-dev.com/login'
+
+2019-09-06 16:56:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 16:56:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 16:56:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Email_email"), "didinonpqcms@gmail.com"): Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 16:56:08 - [MESSAGE][PASSED] - Text 'didinonpqcms@gmail.com' is set on object 'Object Repository/Page_iPropio - Login/input_Email_email'
+
+2019-09-06 16:56:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 16:56:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 16:56:13 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/4.png"): Taking screenshot successfully
+
+2019-09-06 16:56:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/4.png]]
+
+2019-09-06 16:56:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_iPropio - Login/input_Password_password"), "testing12345"): Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 16:56:14 - [MESSAGE][PASSED] - Text 'testing12345' is set on object 'Object Repository/Page_iPropio - Login/input_Password_password'
+
+2019-09-06 16:56:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-09-06 16:56:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-09-06 16:56:17 - [TEST_STEP][PASSED] - takeScreenshot("/Users/refqi/Documents/webippro/5.png"): Taking screenshot successfully
+
+2019-09-06 16:56:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/refqi/Documents/webippro/5.png]]
+
+2019-09-06 16:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_iPropio - Login/button_Login Now")): Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 16:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_iPropio - Login/button_Login Now' is clicked on
+
+2019-09-06 16:56:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IP-001 (Login hit berkali kali)' successfully
+
+2019-09-06 16:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/a_Admins")): Object: 'Object Repository/admin menu/a_Admins' is clicked on
+
+2019-09-06 16:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/a_Admins' is clicked on
+
+2019-09-06 16:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Actions")): Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 16:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Actions' is clicked on
+
+2019-09-06 16:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/a_Edit")): Object: 'Object Repository/admin menu/a_Edit' is clicked on
+
+2019-09-06 16:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/a_Edit' is clicked on
+
+2019-09-06 16:56:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__first name"), "tesq"): Text 'tesq' is set on object 'Object Repository/admin menu/input__first name'
+
+2019-09-06 16:56:22 - [MESSAGE][PASSED] - Text 'tesq' is set on object 'Object Repository/admin menu/input__first name'
+
+2019-09-06 16:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__last name"), "otomasi"): Text 'otomasi' is set on object 'Object Repository/admin menu/input__last name'
+
+2019-09-06 16:56:22 - [MESSAGE][PASSED] - Text 'otomasi' is set on object 'Object Repository/admin menu/input__last name'
+
+2019-09-06 16:56:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input_House Telephone Number_house_telephone"), "09292929292"): Text '09292929292' is set on object 'Object Repository/admin menu/input_House Telephone Number_house_telephone'
+
+2019-09-06 16:56:23 - [MESSAGE][PASSED] - Text '09292929292' is set on object 'Object Repository/admin menu/input_House Telephone Number_house_telephone'
+
+2019-09-06 16:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__email"), "aaa@gmail.com"): Text 'aaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 16:56:23 - [MESSAGE][PASSED] - Text 'aaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 16:56:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Save Admin Details")): Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 16:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 16:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin menu/input__email"), "aaaaaa@gmail.com"): Text 'aaaaaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 16:56:24 - [MESSAGE][PASSED] - Text 'aaaaaa@gmail.com' is set on object 'Object Repository/admin menu/input__email'
+
+2019-09-06 16:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin menu/button_Save Admin Details")): Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 16:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/admin menu/button_Save Admin Details' is clicked on
+
+2019-09-06 16:56:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-09-06 16:56:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-09-06 16:56:29 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/admin menu/button_Actions")): Unable to click on object 'Object Repository/admin menu/button_Actions' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin menu/button_Actions'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-040 ( admin menu).run(IP-040 ( admin menu):42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567763752063.run(TempTestSuite1567763752063.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin menu/button_Actions' located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1567762689766.run(Script1567762689766.groovy:42)
+	... 13 more
+)
+
+2019-09-06 16:57:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-09-06 16:57:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/admin menu/button_Actions' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin menu/button_Actions'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-040 ( admin menu).run(IP-040 ( admin menu):42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567763752063.run(TempTestSuite1567763752063.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin menu/button_Actions' located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1567762689766.run(Script1567762689766.groovy:42)
+	... 13 more
+)</system-out>
+            <system-err>2019-09-06 16:56:00 - [TEST_CASE][FAILED] - Test Cases/IP-040 ( admin menu): Test Cases/IP-040 ( admin menu) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin menu/button_Actions'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at IP-040 ( admin menu).run(IP-040 ( admin menu):42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1567763752063.run(TempTestSuite1567763752063.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin menu/button_Actions' located by 'By.xpath: //button[@id='__BVID__173__BV_toggle_']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-09-06 16:56:00 - [TEST_SUITE][INCOMPLETE] - IP-040 ( admin menu ): null</system-out>
+        <system-err>2019-09-06 16:56:00 - [TEST_SUITE][INCOMPLETE] - IP-040 ( admin menu ): null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-002 ( Forgot pin ) and ( Forgot Email ),Chrome 76.0.3809.100,,,2019-09-10 10:40:40,2019-09-10 10:41:52,1m - 12.411s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-002 (Forgot Pin),Chrome 76.0.3809.100,,,2019-09-10 10:40:40,2019-09-10 10:41:52,1m - 11.933s,FAILED
+"openBrowser(""http://kamisa.web.iprop-dev.com/login"")",Chrome 76.0.3809.100,,,2019-09-10 10:40:41,2019-09-10 10:40:44,3.847s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-10 10:40:44,2019-09-10 10:40:49,5.049s,PASSED
+"check(findTestObject(""Forgot Pin/Page_iPropio - Login/a_Click here""))",Chrome 76.0.3809.100,,,2019-09-10 10:40:49,2019-09-10 10:40:55,5.428s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/click here.png"")",Chrome 76.0.3809.100,,,2019-09-10 10:40:55,2019-09-10 10:40:56,1.238s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-09-10 10:40:56,2019-09-10 10:40:59,3.016s,PASSED
+"setText(findTestObject(""Forgot Pin/Page_iPropio - Forgot Password/input_Email Address_email""), ""refqi.hussein@gmail.com"")",Chrome 76.0.3809.100,,,2019-09-10 10:40:59,2019-09-10 10:41:00,0.560s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-10 10:41:00,2019-09-10 10:41:05,5.006s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/set email.png"")",Chrome 76.0.3809.100,,,2019-09-10 10:41:05,2019-09-10 10:41:06,0.846s,PASSED
+"click(findTestObject(""Forgot Pin/Page_iPropio - Forgot Password/button_SEND PASSWORD REQUEST""))",Chrome 76.0.3809.100,,,2019-09-10 10:41:06,2019-09-10 10:41:06,0.163s,PASSED
+delay(5),Chrome 76.0.3809.100,,,2019-09-10 10:41:06,2019-09-10 10:41:11,5.008s,PASSED
+"takeScreenshot(""/Users/refqi/Documents/webippro/password sent.png"")",Chrome 76.0.3809.100,,,2019-09-10 10:41:11,2019-09-10 10:41:11,0.557s,PASSED
+"callTestCase(findTestCase(""IP-021 ( Forgot email )""), [:], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-10 10:41:11,2019-09-10 10:41:52,40.720s,FAILED

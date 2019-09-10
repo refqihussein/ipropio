@@ -19,27 +19,13 @@ WebUI.setText(findTestObject('forgot email/input_Lanjutkan ke Gmail_identifier')
 
 WebUI.click(findTestObject('forgot email/div_Berikutnya'))
 
+WebUI.delay(4)
+
 WebUI.setText(findTestObject('forgot email/input_Terlalu sering gagal_password'), 'refqihussein9892')
 
 WebUI.click(findTestObject('forgot email/div_Berikutnya'))
 
-WebUI.click(findTestObject('forgot email/New Message'))
-
 WebUI.delay(2)
-
-WebUI.click(findTestObject('forgot email/a_Reset Password'))
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('forgot email/input_Password_password'), 'mysecret9892')
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('forgot email/input_Repeat Password_repeat password'), 'mysecret9892')
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('forgot email/button_SET YOUR PASSWORD NOW'))
 
 WebUI.takeScreenshot()
 

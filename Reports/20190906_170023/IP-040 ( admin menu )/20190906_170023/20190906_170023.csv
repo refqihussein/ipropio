@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+IP-040 ( admin menu ),Chrome 76.0.3809.100,,,2019-09-06 17:00:32,2019-09-06 17:01:38,1m - 5.944s,INCOMPLETE
+,,,,,,,
+Test Cases/IP-040 ( admin menu),Chrome 76.0.3809.100,,,2019-09-06 17:00:33,2019-09-06 17:01:38,1m - 5.377s,FAILED
+"callTestCase(findTestCase(""IP-001 (Login hit berkali kali)""), [""Email"":""aaa@gmail.com"", ""Password"":""123445656""], STOP_ON_FAILURE)",Chrome 76.0.3809.100,,,2019-09-06 17:00:34,2019-09-06 17:00:53,19.766s,PASSED
+"click(findTestObject(""Object Repository/admin menu/a_Admins""))",Chrome 76.0.3809.100,,,2019-09-06 17:00:53,2019-09-06 17:00:54,0.938s,PASSED
+"click(findTestObject(""Object Repository/admin menu/button_Actions""))",Chrome 76.0.3809.100,,,2019-09-06 17:00:54,2019-09-06 17:00:56,1.293s,PASSED
+"click(findTestObject(""Object Repository/admin menu/a_Edit""))",Chrome 76.0.3809.100,,,2019-09-06 17:00:56,2019-09-06 17:00:57,0.982s,PASSED
+"setText(findTestObject(""Object Repository/admin menu/input__first name""), ""tesq"")",Chrome 76.0.3809.100,,,2019-09-06 17:00:57,2019-09-06 17:00:57,0.821s,PASSED
+"setText(findTestObject(""Object Repository/admin menu/input__last name""), ""otomasi"")",Chrome 76.0.3809.100,,,2019-09-06 17:00:57,2019-09-06 17:00:58,0.398s,PASSED
+"setText(findTestObject(""Object Repository/admin menu/input_House Telephone Number_house_telephone""), ""09292929292"")",Chrome 76.0.3809.100,,,2019-09-06 17:00:58,2019-09-06 17:00:58,0.368s,PASSED
+"setText(findTestObject(""Object Repository/admin menu/input__email""), ""aaa@gmail.com"")",Chrome 76.0.3809.100,,,2019-09-06 17:00:58,2019-09-06 17:00:59,0.520s,PASSED
+"click(findTestObject(""Object Repository/admin menu/button_Save Admin Details""))",Chrome 76.0.3809.100,,,2019-09-06 17:00:59,2019-09-06 17:00:59,0.193s,PASSED
+"setText(findTestObject(""Object Repository/admin menu/input__email""), ""aaaaaa@gmail.com"")",Chrome 76.0.3809.100,,,2019-09-06 17:00:59,2019-09-06 17:01:00,0.642s,PASSED
+"click(findTestObject(""Object Repository/admin menu/button_Save Admin Details""))",Chrome 76.0.3809.100,,,2019-09-06 17:01:00,2019-09-06 17:01:00,0.143s,PASSED
+delay(6),Chrome 76.0.3809.100,,,2019-09-06 17:01:00,2019-09-06 17:01:06,6.006s,PASSED
+refresh(),Chrome 76.0.3809.100,,,2019-09-06 17:01:06,2019-09-06 17:01:06,0.422s,PASSED
+"click(findTestObject(""Object Repository/admin menu/button_Actions""))",Chrome 76.0.3809.100,,,2019-09-06 17:01:06,2019-09-06 17:01:07,0.850s,PASSED
+"click(findTestObject(""Object Repository/admin menu/a_Delete""))",Chrome 76.0.3809.100,,,2019-09-06 17:01:07,2019-09-06 17:01:38,31.115s,FAILED
