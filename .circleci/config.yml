@@ -3,6 +3,8 @@ jobs:
   build:
     docker:
       - image: katalonstudio/katalon
+        environment:
+          TZ: "Indonesia/Jakarta"
     steps:
       - checkout
       - run: katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
@@ -27,15 +29,17 @@ workflows:
     jobs:
       - build
       - build2
-  nightly:
-    triggers:
+Schedule-workflow:
+    triggers: #use the triggers key to indicate a scheduled build
       - schedule:
-          cron: "0 /2 * * *"
+          cron: "0 0 23 * *" # use cron syntax to set the schedule
           filters:
             branches:
               only:
                 - master
+                
     jobs:
       - build
-      - build
+      - build2
+      
      
