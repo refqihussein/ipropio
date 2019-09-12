@@ -2,8 +2,6 @@ run_katalon_test_suite:
       tags:
         - shell
       script:
-        - katalon -noSplash  -runMode=console -consoleLog -projectPath=
-          "<Your_Project_Directory>" -retry=0
-          -testSuitePath="Test Suites/<Test_Suite_Name>" -executionProfile=
-          "default" -browserType="Chrome (headless)"
-
+    - katalon-execute.sh -browserType="Chrome (headless)" 
+    -retry=0 -statusDelay=15 
+    -testSuitePath="Test Suites/IP-001(Login)"
