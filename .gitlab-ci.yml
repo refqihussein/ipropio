@@ -9,7 +9,7 @@ test_job:
   stage: test
   script:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
-  script2:
+  script:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 (forgot pin)"
   artifacts:
     name: "$CI_COMMIT_REF_NAME"
