@@ -4,7 +4,6 @@ services:
 
 stages:
   - test
-  - test2
 
 test_job:
   stage: test
@@ -16,12 +15,3 @@ test_job:
     name: "$CI_COMMIT_REF_NAME"
     paths:
      - report/
-
- test2_job:  
-   stage: test2
-   script2:
-     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002( forgot email )"    
-   artifacts:
-     name: "$CI_COMMIT_REF_NAME"
-     paths:
-      - report/
