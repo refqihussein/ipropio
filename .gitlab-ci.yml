@@ -3,8 +3,7 @@ services:
   - docker:dind
 
 stages:
-  - Login
-  - Forgetemail
+  - Login, forgetemail
 
 job 1:
   stage: Login
