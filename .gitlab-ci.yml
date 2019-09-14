@@ -9,7 +9,8 @@ test_job:
   stage: test
   script:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
-       - report/
+      
+test_jobs_2:      
   stage: test_2       
   script_2:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
