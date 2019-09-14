@@ -4,7 +4,7 @@ services:
 
 stages:
   - Login
-  - Forget email
+  - Forgetemail
 
 job 1:
   stage: Login
@@ -16,7 +16,7 @@ job 1:
      - report/
      
 job 2:
-  stage: forget email
+  stage: forgetemail
   script: 
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
   artifacts:
