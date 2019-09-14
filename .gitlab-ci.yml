@@ -14,8 +14,6 @@ test_job:
     name: "$CI_COMMIT_REF_NAME"
     paths:
       - report/
-test_job_2:
-  stage_2: test
   script_2:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
   artifacts:
