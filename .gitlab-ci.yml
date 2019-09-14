@@ -1,25 +1,37 @@
-image: katalonstudio/katalon
-services:
-  - docker:dind
-
-stages:
-  - Login
-  #- forgetemail
-
-job 1:
-  stage: Login
-  script:
-    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
-  artifacts:
-    name: "$CI_COMMIT_REF_NAME"
-    paths:
-     - report/
-     
-#job 2:
- # stage: forgetemail
-#  script: 
- #   - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
-  #artifacts:
-   # name: "$CI_COMMIT_REF_NAME"
-    #paths:
-     #- report/
+--- 
+jobs: 
+  build: 
+    docker: 
+      - 
+        environment: 
+          TZ: Indonesia/Jakarta
+        image: katalonstudio/katalon
+    steps: 
+      - checkout
+      - 
+        run: "katalon-execute.sh -browserType=\"Chrome\" -retry=0 -statusDelay=15 -testSuitePath=\"Test Suites/IP-001( Login )\""
+      - 
+        store_test_results: 
+          path: ./report
+      - 
+        store_artifacts: 
+          path: ./report
+  build2: 
+    docker: 
+      - 
+        image: katalonstudio/katalon
+    steps: 
+      - checkout
+      - 
+        run: "katalon-execute.sh -browserType=\"Chrome\" -retry=0 -statusDelay=15 -testSuitePath=\"Test Suites/IP-028 ( Guards Schedule )\""
+      - 
+        store_test_results: 
+          path: ./report
+      - 
+        store_artifacts: 
+          path: ./report
+workflows: 
+  commit: 
+    jobs: 
+      - build
+      - build2
