@@ -6,10 +6,19 @@ stages:
   - Login
   - forgetemail
 
-job 1:
+Login:
   stage: Login
   script:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-001( Login )"
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME"
+    paths:
+     - report/
+
+forgetemail:
+  stage: forgetemail
+  script:
+    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
   artifacts:
     name: "$CI_COMMIT_REF_NAME"
     paths:
