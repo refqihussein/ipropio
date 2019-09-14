@@ -5,7 +5,7 @@ services:
 stages:
   - Login
   - forgetemail
-  - create resident
+  - createresident
 
 Login:
   stage: Login
@@ -25,7 +25,7 @@ forgetemail:
     paths:
      - report/
 
-create resident:
+createresident:
   stage: forgetemail
   script:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-006 ( create resident)"
