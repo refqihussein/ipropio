@@ -6,7 +6,7 @@ stages:
   - test
   - test2
 
-test_job:
+ test_job:
   stage: test
   stage: test2
   
@@ -17,7 +17,7 @@ test_job:
     paths:
      - report/
 
-test2_job:    
+ test2_job:    
   script2:
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002( forgot email )"    
   artifacts:
