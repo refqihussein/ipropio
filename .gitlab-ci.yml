@@ -5,6 +5,7 @@ services:
 stages:
   - Login
   - forgetemail
+  - create resident
 
 Login:
   stage: Login
@@ -23,4 +24,13 @@ forgetemail:
     name: "$CI_COMMIT_REF_NAME"
     paths:
      - report/
-     
+
+create resident:
+  stage: forgetemail
+  script:
+    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-006 ( create resident)"
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME"
+    paths:
+     - report/
+          
