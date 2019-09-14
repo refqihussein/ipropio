@@ -18,7 +18,7 @@ Login:
 forgetemail:
   stage: forgetemail
   script:
-    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
+    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 (Forgot Pin)"
   artifacts:
     name: "$CI_COMMIT_REF_NAME"
     paths:
