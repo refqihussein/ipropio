@@ -1,4 +1,3 @@
-
 services:
   - docker:dind
 
@@ -13,7 +12,7 @@ job 1:
      
 job 2:
  image: katalonstudio/katalon
-   script: 
+   script2: 
     - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/IP-002 ( forgot email )"
   artifacts:
     name: "$CI_COMMIT_REF_NAME"
