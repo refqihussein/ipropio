@@ -28,7 +28,7 @@ forgetemail:
 createresident:
   stage: createresident
   script:
-    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-006 ( create resident)"
+    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-003 (Register Resident)"
   artifacts:
     name: "$CI_COMMIT_REF_NAME"
     paths:
