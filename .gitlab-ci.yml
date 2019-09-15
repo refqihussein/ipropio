@@ -5,7 +5,7 @@ services:
 stages:
   - Login
   - forgetemail
-  - createresident
+  #- createresident
 
 Login:
   stage: Login
@@ -25,12 +25,12 @@ forgetemail:
     paths:
      - report/
 
-createresident:
-  stage: createresident
-  script:
-    - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-003 (Register Resident)"
-  artifacts:
-    name: "$CI_COMMIT_REF_NAME"
-    paths:
-     - report/
+#createresident:
+ # stage: createresident
+#script:
+   # - katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="IP-003 (Register Resident)"
+  #artifacts:
+  #  name: "$CI_COMMIT_REF_NAME"
+  #  paths:
+  #   - report/
           
