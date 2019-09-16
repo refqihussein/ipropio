@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://secure.iprop.io/register')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('create new website/input_Email_email'))
 
 WebUI.setText(findTestObject('create new website/input_Email_email'), 'junkmailist0908@gmail.com')
