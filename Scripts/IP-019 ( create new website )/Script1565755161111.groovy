@@ -41,7 +41,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('create new website/input_Association Name_company name'))
 
-WebUI.setText(findTestObject('create new website/input_Association Name_company name'), 'otomasiiprop2')
+WebUI.setText(findTestObject('create new website/input_Association Name_company name'), Association)
 
 WebUI.delay(3)
 
