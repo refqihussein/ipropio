@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>047d2f6c-b228-4648-b131-e29f1a88ab05</dataFileGUID>
-   <dataSourceUrl>/Users/refqi/Documents/reportautomation/Association web baru.xlsx</dataSourceUrl>
+   <dataSourceUrl>https://github.com/refqihussein/ipropio/blob/master/Association web baru.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
